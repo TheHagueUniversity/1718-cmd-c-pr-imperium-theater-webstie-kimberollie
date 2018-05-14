@@ -1,0 +1,394 @@
+/* De css voor alles wat op iedere pagina hetzelfde is */
+/* De css voor alles in de header */
+header { 
+	background: #9E164D; /*Paarsachtig*/
+	border-radius: 25px; /**/
+}
+
+.logo {
+	margin: auto;
+    width: 10%;
+	
+}
+/* De css voor de navigatie */
+#navigatie {
+	height:50px;
+	width:1050px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #900000;
+	position:relative;
+	color:white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+ul li {
+	float:left;
+	width:150px;
+	height:70px;
+	background-color:#DA0043;
+	line-height: 70px;
+	text-align:center;
+	box-shadow:0px 0px 0px 1px white inset; /* Een border aan de binnenkant van de box. */
+	font-size:22px; 
+}
+
+ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+
+ul li a:hover {
+	background-color: #CC1144;
+}
+
+/* De css voor de body */
+body {
+	background: #D50043; /*Heftig roze*/
+	font-family: 'arial';
+}
+
+.container {
+	background-color: #F2F2F2;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+
+/* De css voor de main */
+main {
+	background: #F2F2F2; /*Heel licht grijs*/
+}
+
+/* De css voor de footer */
+footer {
+	background: #5E5E5E; /*Donkergrijs*/
+	border-radius: 0px 0px 25px 25px; /*Het grijze deel van de footer heeft afgeronde hoeken.*/
+	overflow: hidden;
+}
+footer p {
+	color: white;
+	float:left;
+	margin: 20px 60px;
+}
+
+footer div p span {
+	display: block;
+}
+
+.socialmediaicon {
+	width: 50px;
+	height: auto;
+}
+
+#footertekst {
+	margin-left: 170px;
+}
+
+footer p a {
+	color: white;
+}
+
+footer p a:hover {
+	color: #841542;
+}
+
+/* De css voor de homepagina*/
+#filmposter figure {
+	
+	float: left;
+	margin-left: 58px;
+	margin-right: 58px;
+}
+
+#filmposter {
+	overflow: auto;
+}
+
+
+#allevoorstellingen { /* Knop "alle voorstellingen"*/
+	margin: 440px;
+	padding: 15px;
+	background-color: #9E164D;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+#allevoorstellingen:hover{
+	background-color: #841542;
+}
+
+#Nieuws img { /* Nieuwsblokken"*/
+	
+	margin: 0 30px;
+
+}
+
+.lustrum{
+	padding: 20px;
+}
+.wordlid{
+	padding:20px;
+}
+
+/* De css voor de "over ons" pagina */
+
+.bovensteplaatjes{
+	width: 340px;
+	height: 226px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.ondersteplaatjes{
+	width: 234px;
+	height: 346px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+/* De css voor de "voorstellingen" pagina */
+#filmdata figure {
+	float: left;
+	margin-left: 58px;
+	margin-right: 58px;
+}
+
+#filmdata {
+	overflow: auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+
+/* De css voor de "extra info" pagina */
+#poster {
+	width: 284px;
+	height: 105px;
+}
+
+#infovoorstelling {
+	max-width: 460px;
+}
+
+#terugvoorstellingen { /* Knop "terug naar alle voorstellingen"*/
+	padding: 15px;
+	background-color: #9E164D;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	position: relative;
+	top: 20px;
+	display: block;
+	max-width: 210px;
+}
+#terugvoorstellingen:hover{
+	background-color: #841542;
+}
+
+#bestelkaarten { /* Knop "terug naar alle voorstellingen"*/
+	padding: 15px;
+	background-color: #DA0944;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	display: block;
+	max-width: 270px
+	
+}
+#bestelkaarten:hover{
+	background-color: #CC1143;
+}
+
+/* De css voor kaarten.html en kaarten specifieke voorstelling.html */
+table, th, td {
+	border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse; /* De borders van de tabel worden 1 lijn */
+    min-width: 800px;
+    text-align: center;
+    margin-left: 60px;
+    overflow: auto;
+}
+
+table a {
+	color: black;
+}
+
+table a:hover{
+	color: #841542;
+}
+
+
+.roze {
+	background-color: #FADBE8;
+}
+
+/* De css voor de "tickets kiezen" pagina */
+
+#witblok {
+	padding: 10px;
+	background-color: white;
+}
+
+#bestelprocesblok {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;	
+}
+
+#naargegevensinvullen {
+	padding: 15px;
+	background-color: #DA0944;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	display: block;
+	max-width: 170px;
+}
+
+#naargegevensinvullen:hover {
+	background-color: #CC1143;
+}
+
+#sequencemap { /* Alle 4 de sequence maps (ook van andere pagina's) staan nu in het midden */
+	margin-left: 125px;
+}
+
+/* De css voor gegevens invullen.html */
+#terug {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+	
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#terug:hover {
+	color: #841542;
+}
+
+#gegevenschecken {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #DA0944;
+	border-radius: 10px;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+}
+
+#gegevenschecken:hover {
+	background-color: #CC1143;
+}
+
+/* De css voor gegevens checken.html */
+
+#pasaan {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+	
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#pasaan:hover {
+	color: #841542;
+}
+
+#bevestig {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #DA0944;
+	border-radius: 10px;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+}
+#bevestig:hover {
+	background-color: #CC1143;
+}
+
+/* De css voor bevestigen.html */
+
+#terughome {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #DA0944;
+	border-radius: 10px;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+}
+
+#terughome:hover {
+	background-color: #CC1143;
+}
+
+/* De css voor de contactpagina */
+
+#contactform {
+	float: left;
+	overflow: auto;
+}
+
+#contactgegevens { /* De contactgegevens moeten rechts naast het contactformulier staan, maar het blok tekst heeft hier geen zin in. */
+	overflow: auto;
+}
+
+#verstuurknop {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #DA0944;
+	border-radius: 10px;
+	padding:10px;
+	display: block;
+	max-width: 170px;
+}
+
+#verstuurknop:hover {
+	background-color: #CC1143;
+}
+
+
+
+
+
+
+
+
+
+
