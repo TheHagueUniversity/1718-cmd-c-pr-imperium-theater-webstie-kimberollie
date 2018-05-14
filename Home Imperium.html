@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- REVIEW: noem de homepagina altijd index.html -->
 <html>
 <head>
 	<title>Imperium Theater</title>
@@ -9,11 +10,12 @@
   <div class="container"> <!--Dit zorgt ervoor dat de pagina niet de hele breedte van het scherm inneemt-->
 	<header>
 		<div class="logo">
-      	<img src="IMG/logo.png">
-    </div> 
-      
+      	<img src="IMG/logo.png"><!-- REVIEW: img moet altijd een alt attribuut hebben -->
+    </div>
+
     <!-- Navigatie -->
     <div id="navigatie">
+			<!-- REVIEW: hiervoor moet je het nav element gebruiken en geen div -->
       <ul>
         <li><a href="homeimperium.html">Home</a></li>
         <li><a href="over ons.html">Over ons</a></li>
@@ -22,28 +24,29 @@
         <li>Steun ons</li>
         <li>Huur theater</li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>      
+      </ul>
     </div>
 	</header>
-	
+
   <main>
     <!--Hier staan de eerstvolgende voorstellingen-->
-		<h2>Aankomende voorstellingen</h2>  
+		<h2>Aankomende voorstellingen</h2>  <!-- REVIEW: waarom start je niet met een h1? -->
       <div id="filmposter">
         <figure>
           <a href="extra info.html"><img src="img/postervrouw.png" alt="De filmposter van over iedereen die er niet is"></a>
-          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption> 
+          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption>
+        </figure>
+				<!-- REVIEW: je kunt beter de <a> om de figure heenzetten. Nu is bijv. de figcaption niet clickable -->
+        <figure>
+          <a href="extra info.html"><img src="img/postervrouw.png" alt="De filmposter van over iedereen die er niet is"></a>
+          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption>
         </figure>
         <figure>
           <a href="extra info.html"><img src="img/postervrouw.png" alt="De filmposter van over iedereen die er niet is"></a>
-          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption> 
-        </figure>
-        <figure>
-          <a href="extra info.html"><img src="img/postervrouw.png" alt="De filmposter van over iedereen die er niet is"></a>
-          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption> 
+          <figcaption>Over iedereen die er niet is <br>24/02/18</figcaption>
         </figure>
        </div>
-      
+
       <!--Een knop om naar alle voorstellingen te gaan-->
       <a href="voorstellingen.html" id="allevoorstellingen">Alle voorstellingen</a>
 
@@ -56,7 +59,7 @@
         </figure>
       </div>
 	</main>
-  
+
   <footer>
     <div id="footertekst">
       <p>

@@ -10,8 +10,8 @@
 	<header>
 		<div class="logo">
       	<img src="IMG/logo.png">
-    </div> 
-      
+    </div>
+
     <!-- Navigatie -->
     <div id="navigatie">
       <ul>
@@ -22,13 +22,13 @@
         <li>Steun ons</li>
         <li>Huur theater</li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>      
+      </ul>
     </div>
 	</header>
-	
-  <main id="bestelprocesblok">    
+
+  <main id="bestelprocesblok">
     <div id="witblok">
-      <img src="IMG/Sequence map-01.png" id="sequencemap">
+      <img src="IMG/Sequence map-01.png" id="sequencemap"><!-- REVIEW: hier was een comment heel mooi geweest -->
       <h2>Kaarten bestellen voor "Over iedereen die er niet is"</h2>
       <p>
         Datum: Gekozen datum <br>
@@ -36,17 +36,19 @@
         Locatie: Imperium Theater
       </p>
 
-      <form>
+      <form><!-- REVIEW: form heeft een aantal verplichte attributen -->
         <label for="reguliere kaarten">Aantal (reguliere) kaarten (&euro;12,-):</label>
+				<!-- REVIEW: for moet overeenkomen met id van input, niet name -->
          <input type="number" name="reguliere kaarten" min="0" max="10"> <br>
          <label for="reguliere kaarten">Aantal studenten/CJP pas kaarten (&euro;10,-):</label>
          <input type="number" name="CJP kaarten" min="0" max="10">
       </form>
 
       <a href="gegevens invullen.html" id="naargegevensinvullen">Naar gegevens invullen</a>
+			<!-- REVIEW: knoppen in een formulier doe je met input type submit -->
     </div>
   </main>
-  
+
   <footer>
     <div id="footertekst">
       <p>
